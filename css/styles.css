@@ -11320,3 +11320,9 @@ section#contact form#contactForm :-ms-input-placeholder {
     height: auto;       /* Maintains the aspect ratio */
     object-fit: cover;  /* Ensures the image covers the area, can be used to crop to fit */
 }
+
+.portfolio-item img {
+    width: 100%;
+    height: 300px; /* Set a fixed height if necessary */
+    object-fit: cover;
+}
