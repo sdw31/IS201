@@ -1,0 +1,77 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif; /* Ensures text is legible and modern */
+    line-height: 1.6; /* Provides a good amount of space between lines of text */
+    margin: 0; /* Removes default margin around the document */
+    padding: 0; /* Removes default padding */
+    background-color: #f4f4f2; /* A light background to keep the focus on content */
+    color: #333; /* Dark text for better readability */
+}
+
+/* Header styles */
+header {
+    background-color: #d3d3d3; /* A subtle gray background for the header */
+    padding: 10px 20px; /* Pads the header to give content room to breathe */
+    text-align: center; /* Centers text, making the header content more prominent */
+}
+
+.header-content {
+    display: flex; /* Enables flexbox layout, great for aligning items in a row */
+    align-items: center; /* Vertically centers the items in the header */
+    justify-content: center; /* Horizontally centers the items in a flexible width container */
+    gap: 15px; /* Adds space between the image and the title */
+}
+
+.golf-club-img {
+    width: 80px; /* Adjusts the width of the golf club image */
+    height: auto; /* Keeps the image's aspect ratio */
+}
+
+/* Navigation styles */
+nav a {
+    color: #0077cc; /* A pleasing blue for links to stand out */
+    text-decoration: none; /* Removes underline from links */
+    padding: 5px 10px; /* Gives space around links for easier clicking */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Adds an underline on hover for visual feedback */
+}
+
+/* Section styles */
+section {
+    padding: 20px; /* Adds padding inside each section */
+    margin-bottom: 20px; /* Adds space between sections */
+    border-bottom: 1px solid #ccc; /* Adds a separator between sections */
+}
+
+/* Footer styles */
+footer {
+    background-color: #d3d3d3; /* Matches the header for a cohesive look */
+    padding: 10px 20px; /* Consistent padding with the header */
+    text-align: center; /* Centers the footer content */
+}
+
+/* Styles for titles within the page */
+h1, h2 {
+    color: #005500; /* A green color for headings to fit the golf theme */
+}
+
+/* Styles for iframe elements, commonly used for embedded content like videos */
+iframe {
+    display: block; /* Makes the iframe behave like a block element */
+    margin: 20px auto; /* Centers the iframe horizontally and adds vertical spacing */
+    max-width: 100%; /* Ensures the iframe does not overflow the page width */
+}
+
+.tableau-embed {
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto; /* Center align the iframe if smaller than the container */
+}
+
+.tableau-embed iframe {
+    width: 100%; /* Make the iframe responsive */
+    min-height: 500px; /* Minimum height */
+    border: none; /* Removes the default frame border */
+}
